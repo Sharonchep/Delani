@@ -70,3 +70,7 @@
 .worst{
     display: none;
 }
+#port{
+    text-align: center;
+    padding-bottom: 1%;
+}
