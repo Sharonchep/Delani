@@ -4,184 +4,180 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/styles.css">
-    <script  src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
+    <script src="./js/jquery-3.6.0.js"></script>
     <title>Delani studio</title>
 </head>
-<body><nav class="navbar navbar-expand-lg text-center navbar-light bg-light">
-    <div class="container fliud">
-        <div class="bg-white fixed-top">
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link "  href="#title">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#about">About us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#last">What we do</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#asset">Contact us</a>
-                </li>
-            </ul>
+<body>
+    <div class="container-fuid">
+        <div class="bg-image d-flex flex-column justify-content-center align-items-center" style="
+      background-image: url('./assets/backgrounds/h_img.jpg');
+      height: 100vh;">
+      <img class="let" src="./assets/logo/logo.png">
+      <br>
+      <h1 class="text-white">WELCOME</h1>
+      <h1 class="text-white">TO DELANI STUDIO</h1>
+      <p class="text-white">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+      <br> <br> <br> <br> <br> <br>
+      <img id="place" src="./assets/mouse_click.png">
+      </div>
     </div>
-</nav>
-<div class="container-fluid"></div>
-<div class="container"id=top>
-    <h1 id="title">DELANI STUDIO</h1>
-    <div class="carousel-inner">
-        <img src="./assets/backgrounds/h_img.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-            <img src="./assets/logo/logo.png">
-            <h3 id="each">WELCOME</h3>
-            <h3> TO DELANI STUDIO</h3>
-            <p id="source">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT </p>
-            <img src="./assets/mouse_click.png"id="place">
-        </div>
+    <div class="container" id="fast">
+        <h1 id="about">ABOUT US</h1>
+        <p>
+            <div class="one">When you work with us,you are part of a team of committed collaborators.All aspects of our
+            software development process are intergrated,interactive and agile.</div>
+            <div>Our approach unifies design,development and project management to create exceptional products.</div>
+            <div class="one">We start each project by understanding your business goals ,the users needs and the product
+            requirements</div>
+            <div class="one">Then we help translate then into effectine and elegant solutions</div>
+        </p>
     </div>
-</div>
-<div class="container"id="fast">
-    <h1 id="about">ABOUT US</h1>
-    <p>
-        <div class="one">When you work with us,you are part of a team of committed collaborators.All aspects of our software development process are intergrated,interactive and agile.</div>
-        <div>Our approach unifies design,development and project management to create exceptional products.</div>
-        <div class="one">We start each project by understanding your business goals ,the users needs and the product requirements</div>
-        <div class="one">Then we help translate then into effectine and elegant solutions</div>
-    </p>
-</div>
-<div class="container" id="speed">
-    <div class="carousel-inner">
-        <img src="./assets/backgrounds/s_image.jpg" class="d-block w-100" alt="studio picture">
-        <div class="carousel-caption d-none d-md-block">
-            <h3 >SERVICES</h3>
+    <div class="container-fuid text-white">
+        <div class="bg-image d-flex flex-column justify-content-center align-items-center" style="
+      background-image: url('./assets/backgrounds/s_image.jpg');
+      height: 70vh;
+    ">
+            <h3>SERVICES</h3>
             <p>
-            <div class="two">Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision</div>
+            <div class="two">Before we sign a contract or write a line of code our team will spend the necessary time
+                needed to understand your product vision</div>
             <div class="two">The outcome of this scoping session is proposal or high-level statement of work</div>
-            <div class="two">Based on your requirements,we can provide a complete offering or just the pieces you need</div>
+            <div class="two">Based on your requirements,we can provide a complete offering or just the pieces you need
+            </div>
             </p>
         </div>
     </div>
-</div>
-<div class="container"id="service">
-    <h1 id="last" >WHAT WE DO</h1>
-    <div class="row">
-        <figure>
-            <div class="column"id="space">
-                <img src="./assets/services_icons/design_icon.png" class="click" > 
-                <figcaption id="clickable">
-                    <p><strong>DESIGN</strong></p>
-                    <div class="clicked">
-                    <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p> 
-                    <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p> 
-                    </div>
-                </figcaption>
-            </div>
-            <div class="column">
-                <img src="./assets/services_icons/dev_icon.png" class="good" >
-                <figcaption id="better">
-                    <p><strong >DEVELOPMENT</strong></p>
-                    <div class="best" >
-                        <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
-                        <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p> 
-                    </div>
-                </figcaption>
-            </div>
-            <div class="column">
-                <img src="./assets/services_icons/product_icon.png" class="bad">
-                <figcaption id="worse">
-                    <p><strong >PRODUCT MANAGEMENT</strong></p> 
-                    <div class="worst" >
-                        <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
-                        <p>This iterative process allows for changes as business requirements evolve.</p> 
-                    </div>
-                </figcaption>
-            </div>
-        </figure>
-    </div>
-</div>
-<div class="container">
-    <h1 id="port">PORTFOLIO</h1>
-    <div class="row justify-content-center">
-        <div class="col-md-2 p-2">
-            <div class="card">
-                <img class ="image"src="./assets/portfolio/work4.jpg">
-            </div>
-        </div>
-        <div class="col-md-2 p-2">
-            <div class="card">
-                <img class ="image"src="./assets/portfolio/work3.jpg">
-            </div>
-        </div>
-        <div class="col-md-2 p-2">
-            <div class="card">
-                <img class ="image"src="./assets/portfolio/work2.jpg">
-            </div>
-        </div>
-        <div class="col-md-2 p-2">
-            <div class="card">
-                <img class ="image" src="./assets/portfolio/work1.jpg">
-            </div>
+    <div class="container" id="service">
+        <h1 id="last">WHAT WE DO</h1>
+        <div class="row">
+            <figure>
+                <div class="column" id="space">
+                    <img src="./assets/services_icons/design_icon.png" class="click">
+                    <figcaption id="clickable">
+                        <p><strong>DESIGN</strong></p>
+                        <div class="clicked">
+                            <p>Our design practice offers a full range of services including brand strategy, interaction
+                                and visual design and user experience testing.</p>
+                            <p>Throughout your project, our designers create and implement visual design and workflows,
+                                solicit user feedback and work with you to make sure what gets built is what is needed.
+                            </p>
+                        </div>
+                    </figcaption>
+                </div>
+                <div class="column">
+                    <img src="./assets/services_icons/dev_icon.png" class="good">
+                    <figcaption id="better">
+                        <p><strong>DEVELOPMENT</strong></p>
+                        <div class="best">
+                            <p>All engineers are fluent in the latest enterprise, mobile and web development
+                                technologies.</p>
+                            <p>They collaborate with your team to write, and improve code on a daily basis, using proven
+                                practices such as test-driven development and pair programming.</p>
+                        </div>
+                    </figcaption>
+                </div>
+                <div class="column">
+                    <img src="./assets/services_icons/product_icon.png" class="bad">
+                    <figcaption id="worse">
+                        <p><strong>PRODUCT MANAGEMENT</strong></p>
+                        <div class="worst">
+                            <p>Planning and development is iterative. Because we are constantly coding and testing, the
+                                products we build are always ready to go live.</p>
+                            <p>This iterative process allows for changes as business requirements evolve.</p>
+                        </div>
+                    </figcaption>
+                </div>
+            </figure>
         </div>
     </div>
-    <div class="row justify-content-center">
-        <div class="col-md-2 p-2">
-            <div class="card">
-                <img class ="image"src="./assets/portfolio/work5.jpg">
+    <div class="container">
+        <h1 id="port">PORTFOLIO</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-2 p-2">
+                <div class="card">
+                    <img class="image" src="./assets/portfolio/work4.jpg">
+                </div>
+            </div>
+            <div class="col-md-2 p-2">
+                <div class="card">
+                    <img class="image" src="./assets/portfolio/work3.jpg">
+                </div>
+            </div>
+            <div class="col-md-2 p-2">
+                <div class="card">
+                    <img class="image" src="./assets/portfolio/work2.jpg">
+                </div>
+            </div>
+            <div class="col-md-2 p-2">
+                <div class="card">
+                    <img class="image" src="./assets/portfolio/work1.jpg">
+                </div>
             </div>
         </div>
-        <div class="col-md-2 p-2">
-            <div class="card">
-                <img class ="image"src="./assets/portfolio/work6.jpg">
+        <div class="row justify-content-center">
+            <div class="col-md-2 p-2">
+                <div class="card">
+                    <img class="image" src="./assets/portfolio/work5.jpg">
+                </div>
             </div>
-        </div>
-        <div class="col-md-2 p-2">
-            <div class="card">
-                <img class ="image"src="./assets/portfolio/work7.jpg">
+            <div class="col-md-2 p-2">
+                <div class="card">
+                    <img class="image" src="./assets/portfolio/work6.jpg">
+                </div>
             </div>
-        </div>
-        <div class="col-md-2 p-2">
-            <div class="card">
-                <img class ="image"src="./assets/portfolio/work8.jpg">
-                <div class="text-block">
-                    <h5><strong>BAILEY</strong></h5>
-                    <h5><strong>WONGER</strong></h5>
+            <div class="col-md-2 p-2">
+                <div class="card">
+                    <img class="image" src="./assets/portfolio/work7.jpg">
+                </div>
+            </div>
+            <div class="col-md-2 p-2">
+                <div class="card">
+                    <img class="image" src="./assets/portfolio/work8.jpg">
+                    <div class="text-block">
+                        <h5><strong>BAILEY</strong></h5>
+                        <h5><strong>WONGER</strong></h5>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="container" id="length">
-    <div class="carousel-inner">
-        <img src="./assets/backgrounds/c_image.jpg"class="d-block w-100"    alt="...">
-        <div class="carousel-caption ">
-            <h3 id="asset" >CONTACT US</h3>
+    <br>
+    <div class="container-fluid text-white">
+        <div class="bg-image d-flex flex-column justify-content-center align-items-center" style="
+      background-image: url('./assets/backgrounds/c_image.jpg');
+      height: 70vh;
+    ">
+    <div>
+        <h3 id="asset">CONTACT US</h3>
             <form action="https://formspree.io/f/xdobdoyr" method="post">
                 <div class="row p-1">
                     <div class="col-lg-6">
-                        <input type="text" class="form-control bg-transparent text-white" id="pwd" placeholder="Name" name="text">
-                        <label class="form-label "for="pwd"></label>
+                        <input type="text" class="form-control bg-transparent text-white" id="pwd"placeholder="Name" name="text">
+                        <label class="form-label " for="pwd"></label>
                     </div>
                     <div class="col-lg-6">
-                        <input type="email" class="form-control bg-transparent text-white" id="floatingInput" placeholder="email" name="email">
-                        <label class="form-label"for="email"></label>
+                        <input type="email" class="form-control bg-transparent text-white" id="floatingInput"placeholder="email" name="email">
+                        <label class="form-label" for="email"></label>
                     </div>
                 </div>
                 <div class="form-floating">
-                    <textarea class="form-control bg-transparent text-white p-1" placeholder="Your message here.." id="floatingTextarea2"style="height:150px" ></textarea>
+                    <textarea class="form-control bg-transparent text-white p-1" placeholder="Your message here.."id="floatingTextarea2" style="height:150px"></textarea>
                     <label for="comment"></label>
                 </div>
                 <div class="form-check mb-3">
-                    <button id="impact"type="submit"class="btn btn-info">Submit</button>
+                    <button id="impact" type="submit" class="btn btn-info">Submit</button>
                 </div>
             </form>
             <p id="output"></p>
         </div>
     </div>
 </div>
-<div >
+<br>
+<div class="container">
     <div class="deals">
         <a href="https://twitter.com/?lang=en"><img src="./assets/social_icons/twitter.png"></a>
         <a href="https://www.google.com/search?q=dribble&oq=dribble&aqs=chrome..69i57.22436j0j7&sourceid=chrome&ie=UTF-8"><img src="./assets/social_icons/dribble.png"></a>
@@ -194,11 +190,13 @@
         <a href="https://www.google.com/search?q=flickr&oq=flickr&aqs=chrome..69i57.20537j0j7&sourceid=chrome&ie=UTF-8"><img src="./assets/social_icons/flickr.png"></a>
     </div>
 </div>
-<footer class="page-footer font-small blue" id="deal" >
+<footer class="page-footer font-small blue" id="deal">
     <div class="deal">
-       <p>DELANI STUDIO</p>
-       <p >2022</p>
+        <p>DELANI STUDIO</p>
+        <p>2022</p>
     </div>
 </footer>
+    <script src="./js/scripts.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"></script>
 </body>
 </html>
