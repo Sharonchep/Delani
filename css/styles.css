@@ -89,3 +89,17 @@
  #fact{
     padding: 0%;
 }
+.text-block{
+    position: absolute;
+    background-color: none;
+    border: solid;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    width: 150px;
+    height: 120px;
+    top: 15px;
+    left: 15px;
+    display: none;
+}
