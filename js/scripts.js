@@ -5,7 +5,7 @@ $(document).ready(function() {
     $("#clickable").click(function() {
     $(".click").show();
     $(".clicked").hide();
-});
+  });
 });
 });
 $(document).ready(function() {
@@ -15,7 +15,7 @@ $(document).ready(function() {
     $("#worse").click(function() {
     $(".bad").show();
     $(".worst").hide();
-});
+  });
 });
 });
 $(document).ready(function() {
@@ -25,11 +25,11 @@ $(document).ready(function() {
     $("#better").click(function() {
     $(".good").show();
     $(".best").hide();
-});
+  });
 });
 });
 $(document).ready(function(){
-$(".image").hover(function(){
-  $(".text-block").toggle();
+  $(".image").hover(function(){
+    $(".text-block").toggle();
   })
 });
