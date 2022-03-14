@@ -15,7 +15,7 @@
         <div class="bg-white fixed-top">
             <ul class="nav nav-pills">
                 <li class="nav-item">
-                    <a class="nav-link active"  href="#title">Home</a>
+                    <a class="nav-link "  href="#title">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " href="#about">About us</a>
@@ -54,7 +54,7 @@
 </div>
 <div class="container" id="speed">
     <div class="carousel-inner">
-        <img src="./assets/backgrounds/s_image.jpg" class="d-block w-100" alt="...">
+        <img src="./assets/backgrounds/s_image.jpg" class="d-block w-100" alt="studio picture">
         <div class="carousel-caption d-none d-md-block">
             <h3 >SERVICES</h3>
             <p>
@@ -66,41 +66,40 @@
     </div>
 </div>
 <div class="container"id="service">
-    <!-- <div > -->
-        <h1 id="last" >WHAT WE DO</h1>
-        <div class="row">
-            <figure>
-                <div class="column"id="space">
-                    <img src="./assets/services_icons/design_icon.png" class="click" > <figcaption id="clickable">
-                        <p><strong>DESIGN</strong></p>
-                        <div class="clicked">
-                        <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p> 
-                        <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p> 
-                        </div>
-                    </figcaption>
-                </div>
-                <div class="column">
-                    <img src="./assets/services_icons/dev_icon.png" class="good" >
-                    <figcaption id="better">
-                        <p><strong >DEVELOPMENT</strong></p>
-                        <div class="best" >
+    <h1 id="last" >WHAT WE DO</h1>
+    <div class="row">
+        <figure>
+            <div class="column"id="space">
+                <img src="./assets/services_icons/design_icon.png" class="click" > 
+                <figcaption id="clickable">
+                    <p><strong>DESIGN</strong></p>
+                    <div class="clicked">
+                    <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p> 
+                    <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p> 
+                    </div>
+                </figcaption>
+            </div>
+            <div class="column">
+                <img src="./assets/services_icons/dev_icon.png" class="good" >
+                <figcaption id="better">
+                    <p><strong >DEVELOPMENT</strong></p>
+                    <div class="best" >
                         <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
-                        <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.<p> 
-                        </div>
-                    </figcaption>
-                </div>
-                <div class="column">
-                    <img src="./assets/services_icons/product_icon.png" class="bad">
-                    <figcaption id="worse">
-                        <p><strong >PRODUCT MANAGEMENT</strong></p> 
-                        <div class="worst" >
+                        <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p> 
+                    </div>
+                </figcaption>
+            </div>
+            <div class="column">
+                <img src="./assets/services_icons/product_icon.png" class="bad">
+                <figcaption id="worse">
+                    <p><strong >PRODUCT MANAGEMENT</strong></p> 
+                    <div class="worst" >
                         <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
                         <p>This iterative process allows for changes as business requirements evolve.</p> 
-                        </div>
-                    </figcaption>
-                </div>
-            </figure>
-        </div>
+                    </div>
+                </figcaption>
+            </div>
+        </figure>
     </div>
 </div>
 <div class="container">
@@ -156,32 +155,28 @@
 </div>
 <div class="container" id="length">
     <div class="carousel-inner">
-        <img src="./assets/backgrounds/c_image.jpg"  alt="...">
-        <div class="carousel-caption">
+        <img src="./assets/backgrounds/c_image.jpg"class="d-block w-100"    alt="...">
+        <div class="carousel-caption ">
             <h3 id="asset" >CONTACT US</h3>
             <form action="https://formspree.io/f/xdobdoyr" method="post">
                 <div class="row p-1">
-                <div class="col-lg-6">
-                 
+                    <div class="col-lg-6">
                         <input type="text" class="form-control bg-transparent text-white" id="pwd" placeholder="Name" name="text">
                         <label class="form-label "for="pwd"></label>
-                
-                </div>
-                <div class="col-lg-6">
-                    
-                        <input type="email" class="form-control bg-transparent text-white" id="floatingInput" placeholder="name@example.com" name="email">
+                    </div>
+                    <div class="col-lg-6">
+                        <input type="email" class="form-control bg-transparent text-white" id="floatingInput" placeholder="email" name="email">
                         <label class="form-label"for="email"></label>
-                
+                    </div>
                 </div>
-            </div>
-            <div class="form-floating">
-                <textarea class="form-control bg-transparent text-white p-1" placeholder="Your message here.." id="floatingTextarea2"style="height:150px" ></textarea>
-                <label for="comment"></label>
-            </div>
-            <div class="form-check mb-3"></div>
-                
-                <button id="impact"type="submit"class="btn btn-info">Submit</button>
-              </form>
+                <div class="form-floating">
+                    <textarea class="form-control bg-transparent text-white p-1" placeholder="Your message here.." id="floatingTextarea2"style="height:150px" ></textarea>
+                    <label for="comment"></label>
+                </div>
+                <div class="form-check mb-3">
+                    <button id="impact"type="submit"class="btn btn-info">Submit</button>
+                </div>
+            </form>
             <p id="output"></p>
         </div>
     </div>
@@ -205,6 +200,5 @@
        <p >2022</p>
     </div>
 </footer>
-</div> 
 </body>
 </html>
