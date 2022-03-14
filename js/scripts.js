@@ -18,16 +18,16 @@ $(document).ready(function() {
 });
 });
 });
-// $(document).ready(function() {
-//   $(".good").click(function() {
-//     $(".best").show();
-//     $(".good").hide();
-//     $("#better").click(function() {
-//     $(".good").show();
-//     $(".best").hide();
-// });
-// });
-// });
+$(document).ready(function() {
+  $(".good").click(function() {
+    $(".best").show();
+    $(".good").hide();
+    $("#better").click(function() {
+    $(".good").show();
+    $(".best").hide();
+});
+});
+});
 // $(document).ready(function(){
 // $(".image").hover(function(){
 //   $(".text-block").toggle();
