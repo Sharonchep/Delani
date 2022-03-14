@@ -112,3 +112,15 @@
 #space{
     padding: 10px;
 }
+.row{
+    display: flex;
+}
+.column{
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    padding:10px;
+}
+#impact{
+    padding-bottom: 0%;
+}
