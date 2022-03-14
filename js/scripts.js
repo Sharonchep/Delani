@@ -8,16 +8,16 @@ $(document).ready(function() {
 });
 });
 });
-// $(document).ready(function() {
-//   $(".bad").click(function() {
-//     $(".worst").show();
-//     $(".bad").hide();
-//     $("#worse").click(function() {
-//     $(".bad").show();
-//     $(".worst").hide();
-// });
-// });
-// });
+$(document).ready(function() {
+  $(".bad").click(function() {
+    $(".worst").show();
+    $(".bad").hide();
+    $("#worse").click(function() {
+    $(".bad").show();
+    $(".worst").hide();
+});
+});
+});
 // $(document).ready(function() {
 //   $(".good").click(function() {
 //     $(".best").show();
