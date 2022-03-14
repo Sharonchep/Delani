@@ -28,8 +28,8 @@ $(document).ready(function() {
 });
 });
 });
-// $(document).ready(function(){
-// $(".image").hover(function(){
-//   $(".text-block").toggle();
-//   })
-// });
+$(document).ready(function(){
+$(".image").hover(function(){
+  $(".text-block").toggle();
+  })
+});
