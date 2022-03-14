@@ -61,3 +61,6 @@
     padding-top: 3%;
     display: flex;
 }
+.clicked{
+    display: none;
+}
