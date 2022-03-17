@@ -1,94 +1,4 @@
-.nav{
-    padding-left:800px;
-    padding-top: 0px ;
-    padding-bottom: 0px;
-}
-#source{
-    padding-bottom: 0%;
-    padding-top: 0%;
-}
-
-#asset{
-    text-align: center;
-    padding-top: 5%;
-}
-.let{
-    padding-top: 175px;
-}
-
-#title{
-    text-align: center;
-}
-#service{
-    padding-top: 3%;
-    padding:2%; 
-}
-#last{
-    text-align: center;
-}
-#length{
-    padding-top: 5%;
-    padding-bottom: 2%;
-}
-#about{
-    text-align: center;
-    padding-top: 3%;
-}
-#fast{
-    text-align: center;
-}
-.one{
-    padding: 10px;
-}
-
-#speed{
-    text-align: center;
-    padding-top:3%;
-    padding-bottom: 3%;
-}
-.two{
-    padding: 5px;
-}
-#work{
-    text-align: center;
-}
-#mean{
-    padding-bottom: 3%;
-    padding-top: 3%;
-}
-#pic{
-    padding-top: 3%;
-    display: flex;
-}
-.clicked{
-    display: none;
-}
-.best{
-    display:none;
-}
-.worst{
-    display: none;
-}
-#port{
-    text-align: center;
-    padding-bottom: 1%;
-}
-#social{
-    text-align: center;
-}
-.deal{
-    text-align: center;
-    padding-top: 2%;
-}
-.deals{
-    text-align: center;
-    padding-bottom: 10%;
-    padding: 0%;
- }
- #fact{
-    padding: 0%;
-}
-.text-block{
+.text-block1,.text-block2,.text-block3,.text-block4,.text-block5,.text-block6, .text-block7, .text-block8{
     position: absolute;
     background-color: none;
     border: solid;
@@ -102,14 +12,59 @@
     left: 15px;
     display: none;
 }
-.form-floating{
-    padding-bottom: 5%;
-}
 #space{
+    text-align: center;
+    justify-content: center;
+}
+.clicked{
+    display: none;
+}
+.best{
+    display:none;
+}
+.worst{
+    display: none;
+}
+.let{
+    padding-top: 175px;
+}
+.deal{
+    text-align: center;
+    padding-top: 2%;
+}
+.deals{
+    text-align: center;
+    padding-bottom: 10%;
+    padding: 0%;
+ }
+ #asset{
+    text-align: center;
+    padding-top: 5%;
+}
+#about{
+    text-align: center;
+    padding-top: 3%;
+}
+#fast{
+    text-align: center;
+}
+.two{
+    padding: 5px;
+    text-align: center;
+}
+.one{
     padding: 10px;
 }
-.row{
-    display: flex;
+#service{
+    padding-top: 3%;
+    padding:2%; 
+}
+#last{
+    text-align: center;
+}
+#port{
+    text-align: center;
+    padding-bottom: 1%;
 }
 .column{
     text-align: center;
@@ -117,6 +72,73 @@
     width: 33.33%;
     padding:10px;
 }
+#spaces{
+    padding: 10px;
+}
+
 #impact{
     padding-bottom: 0%;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+ xxxxxxxx 
+#source{
+    padding-bottom: 0%;
+    padding-top: 0%;
 }
+
+
+#length{
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+
+
+#speed{
+    text-align: center;
+    padding-top:3%;
+    padding-bottom: 3%;
+}
+
+#work{
+    justify-content: center;
+}
+#mean{
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+#pic{
+    padding-top: 3%;
+    display: flex;
+}
+
+
+#social{
+    text-align: center;
+}
+
+ #fact{
+    padding: 0%;
+}
+.form-floating{
+    padding-bottom: 5%;
+} */
+
+
