@@ -23,32 +23,31 @@ $(".bad").click(function() {
   $(".worst").hide();
 });
 });
-$("#one").hover(function(){
+$("#first").hover(function(){
   $(".text-block1").toggle();
   });
-$("#two").hover(function(){
+$("#second").hover(function(){
   $(".text-block2").toggle();
   });
-$("#three").hover(function(){
+$("#third").hover(function(){
   $(".text-block3").toggle();
   });
-$("#four").hover(function(){
+$("#forth").hover(function(){
   $(".text-block4").toggle();
   });
-$("#five").hover(function(){
+$("#fifth").hover(function(){
   $(".text-block5").toggle();
   });
-$("#six").hover(function(){
+$("#sixth").hover(function(){
   $(".text-block6").toggle();
   });
-$("#seven").hover(function(){
+$("#seventh").hover(function(){
   $(".text-block7").toggle();
   });
-$("#eight").hover(function(){
+$("#eighth").hover(function(){
   $(".text-block8").toggle();
-  });
-  
+  }); 
+  $("button").click(function () {
+    $("#lost")[0].reset();
 });
-
-
-
+});
